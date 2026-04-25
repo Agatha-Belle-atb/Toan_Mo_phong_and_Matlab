@@ -8,80 +8,80 @@ VAI TRÒ MÔ HÌNH HÓA HỆ THỐNG
 Chương 1:
 
 matlap
-k xuất hiện dấu nhấc lệnh--> CtrlC
-ans: câu tloi(biến tạm) -> hạn chế sdung
-không khai báo loại biến, ( tự Matlab biết)
-không cần khai báo kiểu dữ liệu 
-không cần định dạng kiểu dữ liệu
-viết tiếp thì cần dùng ...(không dùng Shift+enter)
-6+3+4+...+5.6
-dùng dấu chấm phẩy tuy k hiển thị kq nhưng vẫn chạy lệnh và vùng làm việc vẫn hiện
-viết nhiều lệnh trên cùng 1 dòng, dùng dấu phẩy
-dùng lệnh Who để liệt kê danh sách lệnh...
-xóa lệnh dùng clear +tên biến
-clear a
-clear all
-exp(a) --> tính e mũ a
-lệnh help để tra lệnh hay đơn vị 
-nhập lệnh sin --> nhấn F1 thì sẽ giải thích
-lệnh lookfor dùng để tìm kiêm 1 cụm từ khóa nào đó(không biết gì về lệnh đó)
---> matlap tìm tất cả câu lệnh có chứa từ khóa bạn tìm kiếm
+k xuất hiện dấu nhấc lệnh--> CtrlC  
+ans: câu tloi(biến tạm) -> hạn chế sdung  
+không khai báo loại biến, ( tự Matlab biết)  
+không cần khai báo kiểu dữ liệu   
+không cần định dạng kiểu dữ liệu  
+viết tiếp thì cần dùng ...(không dùng Shift+enter)  
+6+3+4+...+5.6  
+dùng dấu chấm phẩy tuy k hiển thị kq nhưng vẫn chạy lệnh và vùng làm việc vẫn hiện  
+viết nhiều lệnh trên cùng 1 dòng, dùng dấu phẩy  
+dùng lệnh Who để liệt kê danh sách lệnh...  
+xóa lệnh dùng clear +tên biến  
+clear a  
+clear all  
+exp(a) --> tính e mũ a  
+lệnh help để tra lệnh hay đơn vị   
+nhập lệnh sin --> nhấn F1 thì sẽ giải thích  
+lệnh lookfor dùng để tìm kiêm 1 cụm từ khóa nào đó(không biết gì về lệnh đó)  
+--> matlap tìm tất cả câu lệnh có chứa từ khóa bạn tìm kiếm  
 
-lg cơ số 10 của 100
-tìm ln của 1 số
-log cơ số 10 của 1 số
-ln của 1 e
+lg cơ số 10 của 100  
+tìm ln của 1 số  
+log cơ số 10 của 1 số  
+ln của 1 e  
 
 -------------------------------------------------------------------
 
-Chương 2: tính toán trong matlap
+Chương 2: tính toán trong matlap  
 -----
-Hàm phép tính
-sqrt(x): căn bậc 2
-exp(x): hàm mũ cơ số e
-rem(x,y): tìm số dư của một phép chia
-	rem(3,2)
-mod(): ktra phần dư của một số
-
------
-Hàm làm tròn:
-round(x): làm tròn số, về 1 số tự nhiên gần nhất
-ceil(x): làm tròn lên(vdu lớn hơn 2 thì làm tròn lên 3)
-floor(x): làm tròn xuống (lấy phần nguyên của số thập phân)
-
-BIẾN VÀ CÁC THAO TÁC CỦA BIẾN
-biến= chú giải
-biến bắt đầu bằng chữ(a1=2)
-không dùng ký tự đặt biệt(@#$)
-Phân biệt chữ Hoa và chữ Thường
-use hàm 'isvarname' để kiểm tra tính hợp lệ của biến
-	1=hợp lệ và 0=k hợp lệ
-Tránh đặt tên biến trùng với tên hàm chuẩn
-inf: vô cùng
-NaN: Not a number
+Hàm phép tính  
+sqrt(x): căn bậc 2  
+exp(x): hàm mũ cơ số e  
+rem(x,y): tìm số dư của một phép chia  
+	rem(3,2)  
+mod(): ktra phần dư của một số  
 
 -----
-Hàm số phức
-complex: tạo ra số phức có phần thực và phần ảo
-	z=complex(1,-1)
-real(z): phần thực
-imag(z): phần ảo
-abs(z): tính module của phần thực và phần ảo
-angle(z): tính góc pha argument của số phức, radian
-	angle(z)*180/pi
-rad2deg: đổi từ radian sang độ
+Hàm làm tròn:  
+round(x): làm tròn số, về 1 số tự nhiên gần nhất  
+ceil(x): làm tròn lên(vdu lớn hơn 2 thì làm tròn lên 3)  
+floor(x): làm tròn xuống (lấy phần nguyên của số thập phân)  
 
-ĐỊNH DẠNG KẾT QUẢ TRỞ VỀ
-format: cho phép chuyển đổi kiểu hiển thị ra màn hình
-	format short: cho phép hiển thị 5 số
-	format long: cho phép hiển thị 15 số
-	format long e/short e: e.1416e+00
-khi gọi tên, có hiệu lực đến khi nó được thay đổi
-muốn thay đổi, phải gọi theo kiểu định dạng
-format rat: định dạng cách hiển thị dạng phân số
+BIẾN VÀ CÁC THAO TÁC CỦA BIẾN  
+biến= chú giải  
+biến bắt đầu bằng chữ(a1=2)  
+không dùng ký tự đặt biệt(@#$)  
+Phân biệt chữ Hoa và chữ Thường  
+use hàm 'isvarname' để kiểm tra tính hợp lệ của biến  
+	1=hợp lệ và 0=k hợp lệ  
+Tránh đặt tên biến trùng với tên hàm chuẩn  
+inf: vô cùng  
+NaN: Not a number  
+
+-----
+Hàm số phức  
+complex: tạo ra số phức có phần thực và phần ảo  
+	z=complex(1,-1)  
+real(z): phần thực  
+imag(z): phần ảo   
+abs(z): tính module của phần thực và phần ảo  
+angle(z): tính góc pha argument của số phức, radian  
+	angle(z)*180/pi  
+rad2deg: đổi từ radian sang độ  
+
+ĐỊNH DẠNG KẾT QUẢ TRỞ VỀ  
+format: cho phép chuyển đổi kiểu hiển thị ra màn hình  
+	format short: cho phép hiển thị 5 số  
+	format long: cho phép hiển thị 15 số  
+	format long e/short e: e.1416e+00  
+khi gọi tên, có hiệu lực đến khi nó được thay đổi  
+muốn thay đổi, phải gọi theo kiểu định dạng  
+format rat: định dạng cách hiển thị dạng phân số  
 
 ------
-NHẬP VÀ XUẤT DỮ LIỆU
+NHẬP VÀ XUẤT DỮ LIỆU  
 TỪ BÀN PHÍM
 input('...') 
 b=input('nhap ten cua ban','s')-->thuc hien chuỗi
