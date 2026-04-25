@@ -6,6 +6,9 @@
 
 Tài liệu này tổng hợp các lệnh cơ bản trong MATLAB, thao tác với biến, ma trận, đồ thị 2D và một số bài tập ứng dụng (như giải bài toán động học cơ cấu tay quay con trượt).
 
+> Bạn có thể thoải mái đóng góp (contribute) hoặc liên kết (fork) dự án này.
+> Có thể tìm hiều thêm viết bằng ngôn ngữ Markdown để ghi chú, note,... rất dễ để viết
+> You are free to contribute or fork this repo.
 ---
 Gồm 7 chương
 # 📑 Mục lục
