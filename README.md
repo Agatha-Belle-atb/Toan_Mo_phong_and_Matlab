@@ -126,7 +126,50 @@ MATLAB có đặc điểm là <big> **không cần khai báo kiểu dữ liệu*
   fclose(fid);
 
 ## Chương 3: Ma trận và Vecto
+Khai báo vecto hàng: đc cách nhau dấu phẩy hoặc khoảng trống  
+x=[8 9 10], x=7,8,9] 
+-Khai báo trực tiếp:  
 
+-Khai báo tự động:  
++dấu 2 chấm: bắt đầu: Bước nhảy: Kết thúc (Bắt đầu:Kết thúc)  
+(Bước nhảy: quy luật của dãy số)  
+0:5:100 --> dùng để lấy mẫu dữ liệu  
+x=0:5:100  
++dùng lệnh limspace: limspace(bắt đầu,kết thúc,sluong số hạn)  
+ x=linspace(0,100,20)  
++logspace(a,b,n): dùng để vẽ biểu đồ bode trong matlap(a,b: 10 mũ a,,,)  
+logspace(1,3,3): 10^1,10^2,chia 3 điểm:10 100 1000  
+
+Khai báo vecto cột: mở ngoặc vuông và khai báo từng phần tử  
+trong cùng 1 hàng, cách nhau dấu phẩy hoặc khoảng trắng, các hàng cách nhau bởi dấu chấm phẩy hoặc xuống dòng  
+y=[1;3;5]  
+rand: ma trận gồm các số ngẫu nhiên(0<x<1)  
+rand(kích thước ma trận)  
+rand(2,3):2 hàng 3 cột  
+rand(2): 2 hàng 2 cột  
+randi:Tạo ra ma trận ngẫu nhiên, thành phần trong ma trận là số nguyên  
+randi([0,10],2): 2 hàng, 2 cột, số nguyên  
+tạo ra ma trận ngẫu nhiên 4x4  
+
+MỘT SỐ MA TRẬN ĐẶC BIỆT  
+eye(3,3): tạo ma trận đơn vị  
+ones: tạo ma trận mà tất cả phần tử đều nhận giá trị 1  
+zeros: tạo ma trận mà tất cả phần tử đều nhận giá trị 0  
+diag(vecto đường chéo): tạo ma trận đường chéo  
+Khai báo vecto ở trong dấu ngoặc vuông  
+diag([3 5 7])  
+THAO TÁC TRÊN VECTO VÀ MA TRẬN  
++Gọi tên mảng(vị trí dữ liệu cần truy xuất)  
+               (Hàng, cột    chỉ số)(đánh số theo cột)  
+A=[3 7 9;6 2 4]  
+A(1,3)->9  
+A(5)->9 (đánh chỉ số)  
+ C(1,1:4): 1:4: trả về 1 2 3 4,  
+hàng 1 cột 1, hàng 1 cột 2,...  
+C(1,: ): tất cả các cột trên hàng1  
+C(:,2): : là tất cả các hàng, 2 là tất cả các cột 2  
+C(:, [2 4])  
+C(:,2:2:4)  
 ## Chương 4: Lập trình trong MATLAB 
 
 ## Chương 5: Đồ họa trong Matlab
