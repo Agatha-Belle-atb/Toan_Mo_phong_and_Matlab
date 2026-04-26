@@ -27,7 +27,8 @@ Gồm 7 chương
       - [2.5. Nhập/Xuất dữ liệu](#25-nhậpxuất-dữ-liệu)
       - [2.6. Thao tác với File](#26-thao-tác-với-file)
   - [Chương 3: Ma trận và vecto](#chương-3-ma-trận-và-vecto)
-    - [Toán học cơ bản](#toán-học-cơ-bản)
+    - [I. Khai báo Vector và Ma trận](i-khai-báo-vector-và-ma-trận)
+      - [Toán học cơ bản](#toán-học-cơ-bản)
     - [Làm tròn số](#làm-tròn-số)
     - [Số phức (z = a + bi)](#số-phức-z--a--bi)
   - [Chương 4: Lập trình trong Matlab](#chương-4-lập-trình-trong-matlab)
@@ -134,11 +135,12 @@ MATLAB có đặc điểm là <big> **không cần khai báo kiểu dữ liệu*
 #### 3.1. Khai báo vecto hàng
 ***Được cách nhau dấu phẩy hoặc khoảng trống***  
 
-- Khai báo trực tiếp:  
-x=[8 9 10], x=[7,8,9] 
-- Khai báo tự động:  
-+dấu 2 chấm: bắt đầu: Bước nhảy: Kết thúc (Bắt đầu:Kết thúc)  
-(Bước nhảy: quy luật của dãy số)  
+- Khai báo **trực tiếp**:  
+`x=[8 9 10]` khai báo bằng **khoảng trống**
+`x=[7,8,11]` khai báo bằng **dấu phẩy**
+- Khai báo **tự động**:  
++dấu 2 chấm: bắt đầu : Bước nhảy : Kết thúc (Bắt đầu:Kết thúc)  
+(Bước nhảy : quy luật của dãy số)  
 0:5:100 --> dùng để lấy mẫu dữ liệu  
 x=0:5:100  
 +dùng lệnh limspace: limspace(bắt đầu,kết thúc,sluong số hạn)  
