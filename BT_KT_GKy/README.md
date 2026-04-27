@@ -13,5 +13,6 @@ nói về BT giữa kỳ
 - Sắp xếp các phần tử của hàng này theo thứ tự giảm dần. 
 - Tạo vectơ S gồm m phần tử thể hiện số phần tử có giá trị dương trong mỗi hàng của ma trận C.                                         
 ### c) Thực hiện đếm và in ra màn hình số phần tử có giá trị bằng 2 (bằng -1) của ma trận C sau biến đổi.
-## Câu 2(3đ) Viết hàm thực hiện xử lý chuỗi theo yêu cầu sau: Loại bỏ các khoảng trắng thừa (Nếu có nhiều khoảng trắng liên tục thì giảm xuống còn 1 khoảng trắng) và chuyển chữ cái đầu tiên của chuỗi thành chữ in hoa. Ví dụ: chuyển chuỗi `nguyen       van        nam` thành `Nguyen van nam`. 
+## Câu 2(3đ) Viết hàm thực hiện xử lý chuỗi theo yêu cầu sau: Loại bỏ các khoảng trắng thừa (Nếu có nhiều khoảng trắng liên tục thì giảm xuống còn 1 khoảng trắng) và chuyển chữ cái đầu tiên của chuỗi thành chữ in hoa.  
+- Ví dụ: chuyển chuỗi **`nguyen       van        nam`** thành **`Nguyen van nam`**. 
 Gợi ý: trong bảng mã ASCII, khoảng cách giữa chữ viết hoa và viết thường là 32. Lệnh double cho phép chuyển từ ký tự sang mã ASCII và lệnh char cho phép chuyển từ mã ASCII sang ký tự.
